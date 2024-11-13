@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/depot_tools" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/_gclient_v8_3_rhwhuh" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/chrome/test/data/perf/canvas_bench" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/chrome/test/data/perf/frame_rate/content" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/chrome/test/data/xr/webvr_info" vcs="Git" />
@@ -11,10 +11,9 @@
     <mapping directory="$PROJECT_DIR$/src/media/cdm/api" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/net/third_party/quiche/src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/testing/libfuzzer/fuzzers/wasm_corpus" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/third_party/_gclient_chromium-variations_cc8fpsdh" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/third_party/accessibility_test_framework/src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/third_party/angle" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/third_party/angle/third_party/VK-GL-CTS/_gclient_src_qzzs9v9z" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/third_party/angle/third_party/VK-GL-CTS/src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/third_party/angle/third_party/glmark2/src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/third_party/angle/third_party/rapidjson/src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/third_party/anonymous_tokens/src" vcs="Git" />
@@ -139,6 +138,7 @@
     <mapping directory="$PROJECT_DIR$/src/third_party/xnnpack/src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/third_party/zstd/src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/tools/page_cycler/acid3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/v8" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/websocketpp" vcs="Git" />
   </component>
 </project>
