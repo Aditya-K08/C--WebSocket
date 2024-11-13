@@ -1,0 +1,39 @@
+# BUILD.gn
+
+# Set default toolchain configurations
+toolchain("gcc") {
+# Define compiler flags for both debug and release
+    if (is_debug) {
+        cflags = [ "-g", "-O0" ]  # Debug symbols, no optimization
+    } else {
+        cflags = [ "-O3", "-DNDEBUG" ]  # Optimization for release
+    }
+
+    # Linker flags
+    ldflags = []
+}
+
+# Target for building the WebSocket client
+executable("websocket_client") {
+# Path to the source file
+    sources = [ "client/main.cpp" ]
+
+    # Dependencies
+    include_dirs = [
+        "C:/Users/adity/Downloads/boost_1_86_0/boost_1_86_0",
+        "websocketpp"
+    ]
+
+    # Define build configurations
+    configs += [ ":debug_config", ":release_config" ]
+}
+
+# Debug configuration
+config("debug_config") {
+    cflags = [ "-g", "-O0" ]  # Debug symbols, no optimization
+}
+
+# Release configuration
+config("release_config") {
+    cflags = [ "-O3", "-DNDEBUG" ]  # High optimization level
+}
